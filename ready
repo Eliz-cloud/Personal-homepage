@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<title>Моя страница</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" id="myssylka" href="style.css">
+
+<script>
+function ssylka() {
+  var style ="style2.css" ;
+  var current = document.getElementById("myssylka").href;
+  
+  if (current.endsWith(style)) {
+    document.getElementById("myssylka").href="style.css";
+  }
+  else {
+    document.getElementById("myssylka").href="style2.css"; 
+  }
+}
+</script>
+<body class="w3-light-grey">
+
+<!-- контейнер -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+ 
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+      <div class="w3-white w3-text-grey w3-card-4" style="padding: 20px;">
+      	 <button onclick="ssylka()">Изменить стиль</button> 
+      </div>
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="me.JPG" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Elizabeth</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large text-основной"></i>Web Designer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large text-основной"></i>Ukraine</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large text-основной"></i>post@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large text-основной"></i>1224435534</p>
+          
+          <hr>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-info-circle fa-fw w3-margin-right text-основной"></i>Я в трех словах</b></p>
+          <p>Сообразительная, веселая, коммуникабельная</p>
+          <br>
+
+          <p class="w3-large"><b><i class="fa fa-address-card fa-fw w3-margin-right text-основной"></i>Обо мне</b></p>
+          <p><b>Любимая цитата:</b></p>
+          <p>Если человек действительно чего-то захочет, то вся Вселенная будет способствовать тому, чтобы его желание сбылось.
+          <a href="https://www.inpearls.ru/2220" target="_blank"><b>Пауло Коэльо</b></a></p>
+          <p><b>Мой родной город</b></p>
+          <p>Харьков является одним из крупнейших городов Украины, а также областным центром Харьковской области. Основан в 1654 году. Численность населения составляет около 1,5 млн. чел.Современный город разделен на 9 административных районов: Дзержинский, Октябрьский, Киевский, Коминтерновский, Ленинский, Московский, Орджоникидзевский, Фрунзенский, Червонозаводский. Разные части города, в основном на окраинах, сохранили за собой также и исторические неофициальные названия (например, Алексеевка, Павлово Поле, Померки, Сокольники, Салтовка, Журавлевка, Ивановка, Гончаровка, Лысая Гора, Холодная Гора и др.).</p>
+		  <p>Харьков - это крупный промышленный центр Украины. Основу производственного потенциала составляют предприятия высокотехнологичных отраслей: энергомашиностроения, электротехнической промышленности, транспортного и сельскохозяйственног машиностроение, приборостроение, радиоэлектроника, авиакосмическая промышленность. Продукция многих харьковских предприятий, в том числе и такая наукоемкая, как современные танки, самолеты и турбины, известная на мировом рынке.
+
+По научному и образовательному потенциалу Харьков занимает второе место в Украине. В среднем за год здесь осуществляется подготовка более 33 тыс. специалистов, что обеспечивает высокий уровень квалификации трудовых ресурсов региона. Именно в Харькове впервые в Европе был расщеплен атом, исследована природа сверхпроводимости, создан крупнейший радиотелескоп, разработаны основы теории колебаний в плазме, процессов рассеяния медленных нейтронов в кристаллах. Здесь были созданы многие научные школы. Мировое признание получили работы Л. Ландау, Н. Барабашова, А. Вальтер, А. Палладина.Харьков - спортивный город. Здесь созданы все условия для занятий спортом и воспитания будущих мастеров и чемпионов. Работают 19 стадионов, 850 спортивных площадок, 363 спортивных зала, 19 бассейнов, более 40 теннисных кортов, гольф-клуб. Гордостью Харькова является футбольная команда «Металлист» и волейбольная команда «Локомотив». В историю мирового спорта навсегда вписаны имена многих харьковчан.Для харьковчан одинаково близки и дороги и украинская, и русская культуры. Это сложилось исторически: более трех веков назад эти земли заселяли переселенцы из России и Правобережной Украины. Государственный язык в стране - украинский, но родными языками для большинства жителей Харькова являются и русский, и украинский, поэтому они на равных используются в повседневной жизни.
+Харьков - многонациональный город: здесь издревле живут украинцы и русские, поляки и евреи, немцы и армяне, болгары и татары, белорусы и греки, цыгане и латыши, представители других народов Европы и Азии.</p>
+        </div>
+      </div>
+      <br>
+
+    <!-- конец левого столбца -->
+    </div>
+
+    <!-- правый столбец -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge text-основной"></i>Оценки за предыдущий семестр</h2>
+        <div class="w3-container">
+          <table class="w3-table w3-striped">
+			 <tr class="основной">
+			  <th>Предметы</th>
+			  <th>Преподаватели</th>
+			  <th>Оценки</th>
+			</tr>
+			<tr>
+			  <td>Дискретная математика</td>
+			  <td>Татиринова О.А.</td>
+			  <td>75С</td>
+			</tr>
+			<tr>
+			  <td>Правознавство</td>
+			  <td>Семко М.А.</td>
+			  <td>80С</td>
+			</tr>
+			<tr>
+			  <td>Английский язык</td>
+			  <td>Ковтун О.О.</td>
+			  <td>89В</td>
+			</tr>
+			<tr>
+			  <td>ООП</td>
+			  <td>Водка О.О.</td>
+			  <td>75С</td>
+			</tr>
+                        <tr>
+			  <td>Начертательная геометрия</td>
+			  <td>Федченко А.В.</td>
+			  <td>65D</td>
+			</tr>
+		  </table>
+        </div>
+        <br>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-ticket fa-fw w3-margin-right w3-xxlarge text-основной"></i>Любимые фильмы</h2>
+        <div class="w3-container">
+	        <ul class="w3-ul w3-border">
+	        
+				<li class="w3-bar">
+					<div class="w3-bar-item">
+				    	<span class="w3-large"><a href="https://rezka.ag/films/thriller/3701-kod-da-vinchi-2006.html" target="_blank">Код да Винчи</a></span><br>
+				  	</div>
+				</li>
+				
+				<li class="w3-bar">
+					<div class="w3-bar-item">
+				    	<span class="w3-large"><a href="https://www.film.ru/movies/dnevnik-pamyati" target="_blank">Дневник памяти</a></span><br>
+				  	</div>
+				</li>
+				
+				<li class="w3-bar">
+					<div class="w3-bar-item">
+				    	<span class="w3-large"><a href="https://www.film.ru/movies/parasite" target="_blank">Паразиты</a></span><br>
+				  	</div>
+				</li>
+				
+				<li class="w3-bar">
+					<div class="w3-bar-item">
+				    	<span class="w3-large"><a href="https://www.ivi.ru/watch/99991" target="_blank">Голодные игры</a></span><br>
+				  	</div>
+				</li>
+				
+				<li class="w3-bar">
+					<div class="w3-bar-item">
+				    	<span class="w3-large"><a href="https://www.ivi.ru/watch/97246" target="_blank">Чарли и шоколадная фабрика</a></span><br>
+				  	</div>
+				</li>
+	
+			</ul>
+        </div>
+        <br>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-camera-retro fa-fw w3-margin-right w3-xxlarge text-основной"></i>Я бываю...</h2>
+        <div class="w3-display-container w3-card-4" style="width:50%">
+          <img src="веселая.JPG" alt="зима" style="width:100%">
+  		  <div class="w3-display-bottomleft w3-container w3-large"><b style="color: #C71585;">Веселая</b></div>
+        </div>
+	    <br>
+        <div class="w3-display-container w3-card-4" style="width:50%">
+          <img src="задумчивая.JPG" alt="сфинкс" style="width:100%">
+  		  <div class="w3-display-bottomleft w3-container w3-large"><b style="color: #00FA9A;">Задумчивая</b></div>
+        </div>
+	    <br>
+        <div class="w3-display-container w3-card-4" style="width:50%">
+          <img src="спортивная.JPEG" alt="каток" style="width:100%">
+  		  <div class="w3-display-topright w3-container w3-large"><b style="color: #FFFFE;">Спортивная</b></div>
+        </div>
+	    <br>
+      </div>
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-slideshare fa-fw w3-margin-right w3-xxlarge text-основной"></i>Photos 2019-2020</h2>
+        <div class="w3-container">
+        
+        <div class="w3-content w3-section">
+			<img class="mySlides w3-animate-fading" src="nature.JPG" alt="cats" style="width:100%">
+			<img class="mySlides w3-animate-fading" src="road.JPG" alt="cats" style="width:100%">
+			<img class="mySlides w3-animate-fading" src="sun.JPG" alt="cats" style="width:100%">
+			<img class="mySlides w3-animate-fading" src="spring.JPG" alt="cats" style="width:100%"> 
+		</div>
+		
+		<script>
+		var myIndex = 0;
+		carousel();
+		
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 4000); 
+		}
+		</script>
+		        
+        </div>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-slideshare fa-fw w3-margin-right w3-xxlarge text-основной"></i>Проект который меня вдохновляет -Iphone</h2>
+        <p> Apple наконец выпустила не просто очень хороший продукт, а нечто большее. Действительно, за всю историю линейки iPhone это едва ли не самое яркое обновление. Возможно, нечто подобное по степени новаторства было в случае с iPhone 4 — если помните, именно тогда впервые появился Retina-дисплей (и конкуренты долго не могли его повторить), тогда же у iPhone впервые появилась стеклянная задняя поверхность. В 2017 году Apple вернулась к стеклу как основному материалу, но сделала другую революцию: отказалась от кнопки «Домой» и разместила экран на всей фронтальной поверхности.Новые жесты — удобны и интуитивны, дизайн предустановленных приложений настолько изящно учитывает выемку в верхней части фронтальной поверхности, что мы, скорее, любуемся этим, нежели раздражаемся. Наконец, идентификация по лицу пользователя Face ID наверняка станет стандартом де-факто для индустрии, как ранее Apple сделала стандартом де-факто сканер отпечатков пальцев.</p>
+        <div class="w3-container koru-viewport" data-scene="https://files.boxshot.com/shop/devices-3/iPhoneX.koruDat"></div>
+		<script src="https://files.boxshot.com/koru/gallery/koru-1.2.2.js"></script>
+	    <br>
+      </div>
+      
+      
+    
+    </div>
+    
+  
+  </div>
+  
+  
+</div>
+
+<footer class="w3-container основной w3-center w3-margin-top">
+  
+  <br>
+  <br>
+</footer>
+  <br>
+
+</body>
+</html>
