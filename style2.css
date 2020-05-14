@@ -1,0 +1,42 @@
+
+html,body,h1,h2,h3,h4,h5,h6 {
+	font-family: "courier new", serif !important;
+}
+
+.w3-text-grey {
+	background-color: black !important;
+	color: white !important;
+}
+
+.w3-white, .w3-hover-white:hover {
+	background-color: black !important;
+	color: white !important;
+}
+.w3-striped tbody tr:nth-child(2n) {
+   background-color: #333333 !important;
+}
+body.w3-light-grey {
+  background-image: linear-gradient( #FF9E73, #60D6A9);
+}
+
+.w3-table td, .w3-table th, .w3-table-all td, .w3-table-all th {
+    text-align: center;
+}
+
+.text-основной {
+	color: #60D6A9 !important;
+	color: #FF9E73 !important;	
+}
+.основной {
+	background-color: #60D6A9 !important;
+	background-color: #FF9E73 !important;	
+}
+.koru-viewport {
+	width: 100%;
+	height: 800px !important;
+	padding: 0px;
+}
+.koru-viewport > a,
+.koru-viewport > div {	
+	display: none !important;
+}
